@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>블록 요소와 인라인 요소</title>
+	</head>
+	<body>
+		라인 1
+		라인 2
+		
+		
+		<p><b>단락</b>을 정의하는 p태그는 블록 요소입니다.</p>
+		
+		<p><strong>단락</strong>과 단락 사이는 마진으로 인한 여백이 존재한다.</p>
+		<!-- 시각장애인들을 위해 Strong으로 만들어져있다. 기계가 읽을때 strong부분을 인토네이선 넣어 읽어준다.
+		-->
+		
+		<i>이탤릭</i>
+		<em>강조 +이탤릭</em>
+		<a href="http://www.naver.com">네이버로</a>
+		<a href="../h_tag.html">네이버로</a>
+		<!-- ../은 한단계 뒤로 가는 html경로 -->>
+		<a href="#">네이버로</a>
+		
+		<p>
+			첫줄<br>
+			둘째줄
+			셋째줄
+		</p>
+		
+		
+		
+		
+	</body>
+</html>

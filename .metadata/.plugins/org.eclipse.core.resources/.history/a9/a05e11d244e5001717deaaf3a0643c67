@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+	
+		<img alt="꽃1" src="../image/f1.jpg">
+		<img alt="꽃2" src="../image/f2.jpg">
+	
+	</body>
+</html>

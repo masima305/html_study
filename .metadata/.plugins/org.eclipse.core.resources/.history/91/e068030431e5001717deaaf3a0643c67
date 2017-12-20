@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>블록 요소와 인라인 요소</title>
+	</head>
+	<body>
+		라인 1
+		<p>블록 1</p>
+		<p></p>
+
+	
+	</body>
+</html>
