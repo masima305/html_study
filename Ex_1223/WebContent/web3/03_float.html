@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판 제목</title>
+
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-size: 20px;
+		margin: 10px;
+	}
+	
+	.bbs {
+		width: 260px;
+		border: 2px, solid, red;
+		padding: 10px;
+		background: #ffc;
+		overflow: hidden;
+	}
+	
+	li {
+		list-style: none;
+	}
+	h2{
+		color:#36f;
+		float:left;
+	}
+	p{float:right;}
+	
+	
+	/* 이 속성이 없으면 플롯:렢과 플롯:라이트 사이로 ul이 침범.*/
+	ul{ clear:both;}
+	
+	a{color: #666; text-decoration: none;}
+	
+	p a{ color:#000; }
+</style>
+</head>
+<body>
+	<div class="bbs">
+		<h2>게시판 제목</h2>
+
+		<p>
+			<a href=#>더보기</a>
+		</p>
+		
+
+		<ul>
+			<li>최근게시물 1</li>
+			<li>최근게시물 2</li>
+			<li>최근게시물 3</li>
+			<li>최근게시물 4</li>
+			<li>최근게시물 5</li>
+		</ul>
+		
+		
+	</div>
+</body>
+</html>
