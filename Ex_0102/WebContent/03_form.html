@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>form tag 사용한 파라미터 전달 2</title>
+	<script type="text/javascript">
+		function check2(){
+			
+			//ff라는 이름을 가진 form을 가지고 온다.
+			//일반 name은 form을 통해서 가지고 오는것이 바람직.
+			var form = document.ff;
+			var id = form.id.value;
+			var pwd = form.pass.value;
+			
+			alert( pwd );
+			
+			if(id == ''){
+				alert("아이디를 입력하세요");
+				form.id.focus();
+				return;
+				
+			}
+			
+			
+			
+			form.submit();
+			//alert(document.getElementByName("id"))
+		}
+	
+	</script>
+	
+	
+	</head>
+	<body>
+	
+	
+		<form name="ff">
+		
+			<table border = "1">
+				<tr>
+					<th>아이디</th>
+					<td><input name = "id"></td>
+				</tr>
+				
+				<tr>
+					<th>패스워드</th>
+					<td><input type="password" name="pass"></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+					<input type="button" value ="전송2" onclick="check2();">
+					</td>
+				</tr>
+			
+			</table>
+			
+		</form>			
+	</body>
+</html>

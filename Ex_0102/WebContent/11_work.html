@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+ 				integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+				crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+			
+			$(function(){
+				$("#plus , #minus , #product").click(function(){
+					
+					var a = Number($("#numa").val());
+					var b = Number($("#numb").val());
+					var op = $("#code");
+					
+					if ($(this).val() == '합'){
+						$("#numc").val(a+b);	
+						op.html("+");
+					}else if($(this).val() == '곱'){
+						$("#numc").val(a*b);
+						op.html("*");
+					}else if($(this).val() == '차'){
+						$("#numc").val(a-b);
+						op.html("-");
+					};
+					
+					
+					
+					
+					
+				});	
+			});
+			
+		</script>
+	</head>
+	<body>
+	
+	<form>
+		<input id = "numa">
+		<span id="code">+</span>
+		<input id = "numb">
+		=
+		<input id = "numc">
+		<hr>
+		<input type="button" id="plus" value="합">
+		<input type="button" id="minus" value="차">
+		<input type="button" id="product" value="곱">
+	</form>
+	
+	
+	
+	
+	</body>
+</html>

@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		
+		<script type="text/javascript" src="js/regular.js">
+		</script>
+		
+		<script type="text/javascript">
+		
+			function send( f ){
+				
+				var name = f.name.value.trim();
+				var id = f.id.value.trim();
+				var pwd = f.pwd.value.trim();
+				
+				if( name == '' ){
+					
+					alert("이름을 입력하세요");
+					f.name.focus();
+					return;
+					
+				}
+				
+				//정규식을 통한 id형태 검사
+				if( !reg_id.test( id ) ){
+					alert("영숫자 조합 6 ~12자리로 입력하세요");
+					f.id.focus();
+					return;
+				}
+				
+				//정규식을 통한 pwd형태 검삭
+				if( !reg_pwd.test( pwd ) ){
+					alert("영문 + 숫자 + 특문 조합 6 ~16자리로 입력하세요");
+					f.pwd.focus();
+					return;
+				}
+				
+				f.submit();
+				
+			}//send()
+		
+			function cancel( f ){
+				
+				f.reset();
+				
+			}//cancel();
+			
+		</script>
+		
+	</head>
+	
+	<body>
+		
+		<form method="POST" action="member_reg.do">
+		
+			이름:<input name="name" placeholder="이름을 입력하세요"><br>
+			아이디:<input name="id" placeholder="6~12자리로 입력하세요"><br>
+			비밀번호:<input type="password" name="pwd" 
+			         placeholder="6~16자리의 영문+숫자+특문 조합입니다."><br>
+			
+			성별:
+			<input type="radio" name="gender" value="남" checked="checked">남자
+			<input type="radio" name="gender" value="여">여자<br>
+		
+			취미:
+			<input type="checkbox" name="hobby" value="독서">독서
+			<input type="checkbox" name="hobby" value="운동">운동
+			<input type="checkbox" name="hobby" value="영화">영화
+			<input type="checkbox" name="hobby" value="게임">게임<br>
+			
+			<hr>
+			
+			추천친구:<br>
+			1.<input name="friend"><br>
+			2.<input name="friend"><br>
+			3.<input name="friend"><br>
+			4.<input name="friend"><br>
+			
+			혈액형:
+			<select name="blood">
+				<option value="A">A형</option>
+				<option value="B">B형</option>
+				<option value="O">O형</option>
+				<option value="AB">AB형</option>
+			</select> <br>
+			
+			자기소개:<br>
+			<textarea rows="5" cols="40" name="profile"></textarea>
+			<br>
+			
+			<input type="button" value="전송" onclick="send(this.form);">
+			<input type="reset" value="취소" onclick="cancel(this.form);">
+		</form>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

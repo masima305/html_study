@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	
+	<style>
+		a{text-decoration: none;}
+	</style>
+	
+	<script>
+	
+		var num=1;
+		var path="../img/sport0";
+		
+		function next(){
+			num++;
+			if(num >4)
+				num = 1;
+			
+			var gal = document.getElementById("gal");
+			gal.src = path+num+".jpg";
+		}
+		
+		function prev(){
+			num--;
+			
+			if(num ==0)
+				num = 4;
+			var gal = document.getElementById("gal");
+			gal.src = path+num+".jpg";
+		}
+		
+		setInterval(next(), 1000);
+		//초 간격으로 next메서드 호출
+	</script>
+	
+	
+	
+	<body>
+		<div>
+			<p>
+				<a href = "#" onclick="prev();">
+					<img src = "../img/left_btn.png" alt="이전"/>
+				</a>
+					<img src = "../img/sport01.jpg" alt="그림" id="gal"/>				
+				<a href = "#" onclick="next();">
+					<img src = "../img/right_btn.png" alt="다음"/>
+				</a>
+			</p>
+		</div>
+	</body>
+</html>

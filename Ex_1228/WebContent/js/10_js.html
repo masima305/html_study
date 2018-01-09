@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+		
+	var score = prompt("점수입력");
+	
+	var score_range = (score/10)-((score%10)*0.1);
+	
+	var score_range_b = Math.floor(score_range);
+		
+		var result;
+		
+		
+		switch (score_range){
+		case 5 :
+			result = "F";
+		 	break;
+		case 6 :
+			result = "D";
+			 break;
+		case 7 :
+			result = "C";
+			 break;
+		case 8 :
+			result = "B";
+			 break;
+		case 9 :
+			result = "A";
+			 break;
+		case 10 :
+			result = "A";
+			break;		
+		default :
+			result = "F";
+			break;
+		}
+	alert(result);
+	
+	
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

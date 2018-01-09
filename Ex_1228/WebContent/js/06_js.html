@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>자바 스크립트 06</title>
+		<script>
+		
+		 var gender = prompt("당신의 성별은?");
+		 var age = prompt("당신의 나이는?");
+		 
+		 //프롬프트에서 받은 문자열을 정수형태로 변환해준다.
+		 var myage = Number(age)+10;
+		 
+		 document.write("성별 : "+gender);
+		 document.write("나이 : "+myage);
+		 
+		 var result = age >= 20 && age < 30 && gender == '남자';
+		 //프롬프트를 통해 들어온 값이 문자열이더라도 연산이 가능하다면 정수형으로 자동변환된다.
+		 document.write("<br>");
+		 
+		 if(result == true){
+			 document.write("합격");
+			 
+		 }else{
+			 document.write("불합격");
+		 }
+		 
+		 
+		</script>
+	
+	</head>
+	<body>
+			
+	</body>
+</html>

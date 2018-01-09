@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>form 태그</title>
+	
+	<style>
+		input[type=text]{ background: red;}
+		input[type=password]{ background: blue;}
+	
+	</style>
+</head>
+	<body>
+		<form action="#" method="get">
+			<fieldset>
+				<legend>회원가입 페이지입니다.</legend>
+				<p>
+					<lable for="myID">아이디 : </lable>
+					<input type="text" size="15" id="myID"/>
+				</p>
+				
+				<p>
+					비밀번호 :
+					<input type="password" size="25" placeholder="비밀번호"/>
+					
+				</p>
+				
+				<p>
+					메일 수신 여부:
+					<input type="radio" value="y" name="receive"/>
+					<input type="radio" value="n" name="receive"/>	
+				</p>
+				
+				<p>
+					관심분야:
+				
+					<input type = "checkbox" vlaue="HTML" name="ch1"/>HTML
+					<input type = "checkbox" vlaue="CSS" name="ch1"/>CSS
+					<input type = "checkbox" vlaue="JSP" name="ch1"/>JSP
+					
+				</p>
+				
+				
+				<p>
+					관심분야:
+					<input type = "submit" value="전송"/>
+					<input type = "reset" value="취소"/>
+					<input type = "button" value="확인"/>
+				</p>
+				
+				
+			</fieldset>
+		</form>	
+		
+		<hr>
+			
+		<form>
+			<p>
+				댓글달기<br>
+				<textarea rows="3" cols="50"></textarea>
+			</p>
+			<p>
+				<select>
+					<option value="html5">HTML5</option>
+					<option value="JSP">JSP</option>
+					<option value="CSS">CSS</option>
+					<option value="JS">JS</option>
+					<option value="jQuery">jQuery</option>
+					
+				</select>
+			</p>
+			<p>
+				<select>
+					<optgroup label="관악구">
+						<option value = "가">가동</option>
+						<option value = "나">나동</option>
+						<option value = "다">다동</option>
+					</optgroup>
+					
+					<optgroup label="관악구">
+						<option value = "가">가동</option>
+						<option value = "나">나동</option>
+						<option value = "다">다동</option>
+					</optgroup>
+				</select>
+			</p>
+			
+		</form>
+		
+	</body>
+</html>

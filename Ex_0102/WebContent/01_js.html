@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style type="text/css">
+			table{
+				border-collapse: collapse;
+				width : 200px;
+			}
+			ul li {
+				list-style:none;
+				float : left;
+				margin-left:10px;
+			}
+			
+			input{ border-style: none;}
+			
+		</style>
+		<script type="text/javascript">
+			var one;
+			var two;
+			var result;
+			
+			function cal( code ){
+				one = document.getElementById("su1").value;
+				two = document.getElementById("su2").value;
+				
+				switch(code){
+				
+				case '+' :
+					result = Number(one) + Number(two);
+					break;
+				case '-' :
+					result = one - two;
+					break;
+				case '*' :
+					result = one * two;
+					break;
+				case '/' :
+					result = one / two;
+					break;
+		
+				}
+				var target = document.getElementById("result");
+				target.value = result;
+			}
+
+		</script>
+	
+	
+	</head>
+	<body>
+		
+		<table border="1">
+		
+			<tr>
+			
+				<th class = "su">수1</th>
+				<td><input id="su1"></td>
+	
+			</tr>
+			<tr>
+			
+				<th class = "su">수2</th>
+				<td><input id="su2"></td>
+	
+			</tr>
+			<tr>
+			
+				<td colspan="2">
+					<ul>
+						<li><input type="button" value="+" onclick="cal('+');"></li>
+						<li><input type="button" value="-" onclick="cal('-');"></li>
+						<li><input type="button" value="*" onclick="cal('*');"></li>
+						<li><input type="button" value="/" onclick="cal('/');"></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<th class="res">결과</th>
+				<td> <input id=result> </td>
+			</tr>
+		</table>
+	</body>
+</html>

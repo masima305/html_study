@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	<script type="text/javascript">
+	
+		window.onload = function(){
+			var year = document.getElementById("year");		
+			
+			for(var i = 1970; i < 2019; i++){
+				//select 태그안에 자식 요소인option을 만들자.
+				var option = document.createElement("option");
+				//option을 sido컨트롤에 추가.
+				year.appendChild(option);
+				
+				option.innerHTML = i;	
+			}
+			
+		}
+	
+		function yoon(){
+			//사용자가 선택한 연도가 윤년인지 체크	
+			var year = document.getElementById("year").value;
+		
+			if(isYoon(year)){
+				last_day = 29;				
+			}else{
+				last_day = 28;
+			}
+		
+			var month = document.getElementById("month");
+			
+			//이전의 옵션값을 모두 제거
+			
+			var n = month.length;
+			while(n > 0){
+				month.remove(0)
+				n--;
+			}	
+			
+			
+			
+			for(var i = 1; i < 13; i++){
+			
+				
+				//select 태그안에 자식 요소인option을 만들자.
+				var option = document.createElement("option");
+				//option을 sido컨트롤에 추가.
+				month.appendChild(option);
+				
+				option.innerHTML = i+"월";
+				option.value = i+"월";
+				
+			}
+			
+		}// yoon();
+		
+		function isYoon(year){
+			//윤달검사 메서드
+			//윤년은 400의 배수이거나, 4의배수이면서 100의 배수가 아닌경우
+			return (year % 400 == 0) || (year % 4 == 0)&&(year %= 0);	
+		}
+		
+		function monthChange(month){
+			if(!isYoon(year)){
+				
+			switch ( month){
+				case '1' :
+				case '3' :
+				case '5' :
+				case '7' :
+				case '8' :
+				case '10' :
+				case '12'  :
+					last_day = 31;
+					break;
+				}
+			}
+			
+			
+			var day = document.getElementById("day");
+			
+			//이전의 옵션값을 모두 제거
+			
+			var n = day.length;
+			while(n > 0){
+				day.remove(0)
+				n--;
+			}	
+			
+			
+			
+			for(var i = 1; i < last_day+1; i++){
+			
+				
+				//select 태그안에 자식 요소인option을 만들자.
+				var option = document.createElement("option");
+				//option을 sido컨트롤에 추가.
+				day.appendChild(option);
+				
+				option.innerHTML = i+"일";
+				option.value = i;
+				
+			}
+
+			
+		}
+	
+	
+	</script>
+	
+	
+	</head>
+	<body>
+
+		<p>
+			셩년월일 (1970~2018) :
+			<select id="year" onchange="yoon()">
+				<!--  onchange는 값의 변경을 감지한다 -->
+				
+			</select>
+			<select id="month" onchange="monthChange(this.value);">
+				
+			</select>
+			<select id="day">
+				
+			</select>
+		</p>
+	
+	</body>
+</html>

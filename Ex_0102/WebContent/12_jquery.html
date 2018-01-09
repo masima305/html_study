@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+ 				integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+				crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+			$(function (){
+				
+				$("#btn1").click(function(){
+					
+					var a = $("#a").html();
+					alert(a);
+					
+					$("a").html("<h1>길동이와 길순이</h1>");
+				});
+				
+				$("#btn2").click(function(){
+					
+					$("#b").html("");
+					
+				});
+				
+				$("#btn3").click(function(){
+					
+					$("p").html("안녕");
+					
+				});
+
+			});
+		</script>
+	
+	</head>
+	<body>
+
+		<input type="button" value="버튼1" id="btn1">
+		<input type="button" value="버튼2" id="btn2">
+		<input type="button" value="버튼3" id="btn3">
+		
+		<div id="a">갑돌이와 갑순이</div>
+		<div id="b">한마을에</div>
+		<p>살았더래요</p>
+	
+	</body>
+</html>

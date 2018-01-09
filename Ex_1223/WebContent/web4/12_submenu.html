@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="../css/reset.css"/>
+		
+		<style>
+			#nav{
+				width:1000px;
+				height: 45px;
+				background: #666;
+				margin: 0 auto;
+			]}
+			#nav > li{
+				float: left;
+				position: relative;
+				margin: 3px 10px;
+				margin-left: 80px; 
+				}
+			a{
+				display: block;
+				padding: 10px 20px;
+				text-decoration: none;
+			}
+			li:hover{
+				background: #fff;
+				color : #444;	
+			}
+			#nav ul{
+				position : absolute;
+				left:0;
+				top:40px;
+				width: 150px;
+				border: 1px solid gray;
+				opacity :0;
+			}
+			#nav li:hover ul{opacity:1;}
+			#nav ul li:hover{
+				background: #ccc;
+			}
+				
+		</style>
+		
+	
+	</head>
+	<body>
+		<ul id="nav">
+			<li><a href="#">처음으로</a></li>
+			<li>
+				<a href = "#">여행안내</a>
+				<ul>
+					<li><a href="#"></a>소개</li>
+					<li><a href="#"></a>오시는 길</li>
+				</ul>
+			</li>
+		</ul>	
+	</body>
+</html>

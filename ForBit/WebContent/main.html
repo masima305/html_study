@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>비트 투자 예상표</title>
+	</head>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+ 				integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+				crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+			$(function (){
+				
+				$( "#seed" ).keyup(function(e){
+					if(e.keyCode == 8) {
+			    	    
+						
+					}else{
+						var a = $(this).val().replace(',','');
+						var b;
+						var j;
+						for (var i = 0; i < a.length ; i++){
+							
+							b[i] = a[i];
+						}
+						
+						
+						$(this).val(b);
+						
+					
+			      	}  	
+				});
+					
+			});
+	</script>
+	<body>
+		<section>
+			<div id="inbox">
+				<p>현 시드 : <input id="seed"></p>
+				<p><input id="days">일간!</p>
+				<p><input id="submit" type="button" value="계산!"></p>
+			</div>
+			<div id="outbox">
+				<table id="five_percent">
+					<tr>
+						<th>시간경과</th>
+						<th>원 시드</th>
+						<th>5% 수익</th>
+						<th>5% 인상분</th>
+					</tr>
+				</table>
+				
+				<table id="three_percent">
+					<tr>
+						<th>시간경과</th>
+						<th>원 시드</th>
+						<th>3% 수익</th>
+						<th>3% 인상분</th>
+					</tr>
+				</table>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	<script type="text/javascript">
+	
+		function myClick(){
+			var p1= document.getElementById("txt_p");
+			p1.innerHTML = "버튼 클릭 감지됨";	
+		}
+		
+		
+		function paramTest(result){
+			var txt = document.getElementById("input_txt");
+			txt.value = result;
+		}
+	</script>
+	
+	</head>
+	<body>
+		<input type="button" value="버튼1" onclick = "paramTest('홍길동');"/>
+		<input type="button" value="버튼2" onclick = "myClick();" />	
+		<input type="button" value="버튼3" onclick = "paramTest(100);" />	
+		<input type="text" size="30" id ="input_txt" value="기본값"/>
+		<p id="txt_p"></p>
+	
+	</body>
+</html>

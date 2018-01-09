@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	background: black;
+	color:white;
+}
+
+table{
+	width:900px;	
+}
+caption{
+	margin-bottom:20px;
+	font-size:30px;
+}
+table{
+	margin :50px auto;
+}
+
+td, th{
+	padding : 15px;
+}
+th{
+	border-top : 1px solid #fff;
+}
+th:nth-child(1),
+th:nth-child(2),
+th:nth-child(3){
+	border-right: 1px solid #fff; 
+}
+
+th, td{
+	
+	border-bottom : 1px solid #fff;
+}
+
+
+
