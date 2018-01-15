@@ -65,3 +65,57 @@
 2018-01-09 10:09:54,859 [Worker-16] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
 2018-01-09 10:09:54,968 [Worker-16] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
 2018-01-09 10:09:55,077 [Worker-16] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2018-01-09 14:17:38,858 [Worker-108] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2018-01-09 15:50:37,704 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-01-09 15:51:24,282 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2018-01-09 16:11:29,547 [Worker-15] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-09 16:11:29,671 [Worker-15] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2018-01-09 16:11:29,779 [Worker-15] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2018-01-11 09:34:26,218 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-01-11 09:51:26,127 [Worker-28] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2018-01-11 09:51:26,314 [Worker-28] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-11 09:51:26,439 [Worker-28] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2018-01-11 09:51:26,580 [Worker-28] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2018-01-11 09:51:26,782 [Worker-28] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\4\store
+2018-01-11 12:17:12,621 [Worker-56] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\5\store
+2018-01-11 12:27:44,624 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-11 12:27:44,624 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-11 12:27:44,624 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-11 12:27:44,671 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-11 12:27:44,671 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-11 12:27:44,671 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-11 12:27:44,702 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-11 12:27:44,702 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-11 12:27:44,702 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-11 12:27:44,764 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-11 12:27:44,764 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-11 12:27:44,764 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-11 12:27:44,808 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-11 12:27:44,808 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-11 12:27:44,808 [Worker-72] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-11 12:27:47,288 [Worker-67] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-11 14:49:47,784 [Worker-83] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2018-01-12 09:49:53,728 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-01-12 10:02:09,647 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2018-01-12 10:02:09,729 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-12 10:02:10,074 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2018-01-12 12:03:32,040 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-12 12:03:32,040 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-12 12:03:32,040 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-12 12:03:32,107 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-12 12:03:32,107 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-12 12:03:32,107 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-12 12:03:34,447 [Worker-29] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-12 12:21:14,863 [Worker-49] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-12 12:21:14,863 [Worker-49] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-12 12:21:14,863 [Worker-49] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-12 14:26:39,907 [Worker-38] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-12 14:27:45,387 [Worker-79] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-12 14:27:45,387 [Worker-79] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-12 14:27:45,387 [Worker-79] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-12 14:27:52,828 [Worker-74] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-12 15:40:13,665 [Worker-63] INFO  j.exodus.env.EnvironmentImpl - Store get cache hit rate: 0.0%
+2018-01-12 15:40:13,665 [Worker-63] INFO  j.exodus.env.EnvironmentImpl - Tree nodes cache hit rate: 0.0%
+2018-01-12 15:40:13,665 [Worker-63] INFO  j.exodus.env.EnvironmentImpl - Exodus log cache hit rate: 0.0%
+2018-01-12 15:40:24,497 [Worker-64] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\web_study\work\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2018-01-15 09:42:54,298 [Worker-12] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
